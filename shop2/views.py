@@ -5,6 +5,6 @@ from django.http import HttpResponse
 #     return HttpResponse('<h1>Hello<h1/>')
 
 def index_page(request):
-    return render(request, 'index.html')
+    return render(request, 'news.html')
 def about_page(request):
-    return render(request, 'about.html')
+    return render(request, 'login.html')
